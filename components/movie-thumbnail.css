@@ -1,0 +1,28 @@
+.movie-list {
+  width: 100%;
+  overflow-x: scroll;
+}
+.movie-list::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.movie-card {
+  margin-left: 15px;
+}
+.movie-card:first-child {
+  margin-left: 0;
+}
+
+.thumbnail {
+  width: 140px;
+  height: 160px;
+  border-radius: 5px;
+  background-color: #5d646c;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}

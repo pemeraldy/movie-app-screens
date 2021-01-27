@@ -1,0 +1,30 @@
+.banner {
+  width: 100%;
+  height: 200px;
+  background: #5d646c;
+  border-radius: 10px;
+  position: relative;
+}
+.banner-icon {
+  color: rgb(61, 121, 250);
+  /* background: white; */
+  position: relative;
+}
+.play-btn::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  border-radius: 50%;
+  background: white;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.play-btn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+}

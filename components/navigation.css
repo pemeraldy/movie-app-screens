@@ -1,0 +1,24 @@
+.navigation {
+  width: 100%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #d4d3d3;
+  display: block;
+  opacity: 0.5;
+  font-weight: 600;
+}
+.navigation a.active {
+  color: #fff;
+  opacity: 0.8;
+}
+.navigation .search-icon {
+  width: 20px;
+  height: 20px;
+  color: #5d646c;
+}
+.width-6 {
+  width: 34px;
+  height: 34px;
+}

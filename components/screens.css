@@ -1,0 +1,30 @@
+:root {
+  --screen-bg: #111820;
+  --tiny-card-bg: #1c242b;
+}
+.screen {
+  width: 414px;
+  min-height: 736px;
+  max-height: 736px;
+  background: var(--screen-bg);
+  border-radius: 20px;
+  overflow-y: scroll;
+  /* position: relative; */
+}
+.inner-screen {
+  overflow-x: hidden;
+  position: relative;
+  background: var(--screen-bg);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.screen::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.inner-screen::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
